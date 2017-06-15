@@ -4,9 +4,6 @@ import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -16,10 +13,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
-import java.util.ArrayList;
 import java.util.Locale;
 
-public class Segunda2Tela extends AppCompatActivity
+public class SegundaTelaNavig extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener{
 
     TextToSpeech spk;
@@ -97,17 +93,17 @@ public class Segunda2Tela extends AppCompatActivity
         Bundle b;
 
         if (id == R.id.nav_home) {
-            Intent intent = new Intent(this, Main2Activity.class);
+            Intent intent = new Intent(this, MainActivity.class);
             startActivity(intent);
             finish();
 
         } else if (id == R.id.nav_palavras) {
-            segundaTelaFrag tela2 = new segundaTelaFrag();
+            SegundaTelaFrag tela2 = new SegundaTelaFrag();
             b = getIntent().getExtras();
             tela2.setArguments(b);
             getSupportFragmentManager().beginTransaction().replace(R.id.conteudo_fragment, tela2).commit();
         } else if (id == R.id.nav_pontuacao) {
-            scoreFrag tela3 = new scoreFrag();
+            ScoreFrag tela3 = new ScoreFrag();
             Bundle s = new Bundle();
             s.putInt("certo", score.getAcerto());
             s.putInt("erro", score.getErro());

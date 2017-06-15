@@ -1,9 +1,7 @@
 package com.example.aluno.myapplication;
 
 
-import android.content.Context;
 import android.graphics.Color;
-import android.os.Build;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.speech.tts.TextToSpeech;
@@ -18,20 +16,18 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-import java.util.Locale;
 
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class segundaTelaFrag extends Fragment {
+public class SegundaTelaFrag extends Fragment {
 
-    public segundaTelaFrag() {
+    public SegundaTelaFrag() {
         // Required empty public constructor
     }
 
     int n = 0;
-    TextToSpeech fala;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -64,7 +60,7 @@ public class segundaTelaFrag extends Fragment {
         final TextView resposta = (TextView) view.findViewById(R.id.textViewResposta);
         final TextView certo = (TextView) view.findViewById(R.id.textViewCertoErrado);
 
-        final Segunda2Tela segunda = (Segunda2Tela) getActivity();
+        final SegundaTelaNavig segunda = (SegundaTelaNavig) getActivity();
 
         if (bool){
             Collections.shuffle(listaLivros);

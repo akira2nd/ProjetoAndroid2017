@@ -1,20 +1,16 @@
 package com.example.aluno.myapplication;
 
 import android.content.Intent;
-import android.os.Parcelable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.TextView;
 
 import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
 
-public class Main2Activity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
 
     ArrayList<String> livros = new ArrayList<>();
 
@@ -276,7 +272,7 @@ public class Main2Activity extends AppCompatActivity {
 
 
     private void iniciar(Boolean chk){
-        Intent intent = new Intent(this, Segunda2Tela.class);
+        Intent intent = new Intent(this, SegundaTelaNavig.class);
         intent.putStringArrayListExtra("listaLivros",  livros);
         intent.putExtra("aleatorio", chk);
         startActivity(intent);

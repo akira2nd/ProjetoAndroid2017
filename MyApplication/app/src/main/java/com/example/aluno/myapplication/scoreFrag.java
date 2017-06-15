@@ -12,14 +12,14 @@ import android.widget.TextView;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class scoreFrag extends Fragment {
+public class ScoreFrag extends Fragment {
 
     private Integer certo;
     private Integer erro;
     private Integer pulo;
     private Integer vresp;
 
-    public scoreFrag() {
+    public ScoreFrag() {
         // Required empty public constructor
     }
 
