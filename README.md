@@ -1,8 +1,8 @@
 # ProjetoAndroid - Teste de Ingles Callan (entrega do projeto)
 app para Treinar as palavras do Vocabulario dos livros Callan
 
-**Nome: Celso Akira Mendes Tomisaki
-**Orientador: Giuliano Bertoti
+**Nome: Celso Akira Mendes Tomisaki**<br>
+**Orientador: Giuliano Bertoti**
 
 [Diagrama de Classe](https://raw.githubusercontent.com/akira2nd/ProjetoAndroid2017/master/UML_Android_app_Callan.jpg)
 
