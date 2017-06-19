@@ -4,7 +4,7 @@ app para Treinar as palavras do Vocabulario dos livros Callan
 **Nome: Celso Akira Mendes Tomisaki**<br>
 **Orientador: Giuliano Bertoti**
 
-[Diagrama de Classe](https://raw.githubusercontent.com/akira2nd/ProjetoAndroid2017/master/UML_Android_app_Callan.jpg)
+[Diagrama de Classe](https://raw.githubusercontent.com/akira2nd/ProjetoAndroid2017/master/UML_Android_app_Callan1.jpg)
 
 Telas do Aplicativo:
 * 1- [Tela Inicial](https://raw.githubusercontent.com/akira2nd/ProjetoAndroid2017/master/IMG/INICIO.jpg)
